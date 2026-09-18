@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-import getDb from "./src/db/connect.js";
+import {getDb} from "./src/db/connect.js";
 
 // app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
